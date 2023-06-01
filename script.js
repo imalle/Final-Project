@@ -1,3 +1,5 @@
+alert("Bienvenu à notre nouveau site web!!");
+
 var counterVal = 0;
 
 function incrementClick() {
