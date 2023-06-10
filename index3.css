@@ -22,7 +22,7 @@ h1 {
   width: 150px;
   background-color:white;
   border-color:orangered;
-  gap: 1px;
+  gap: 3px;
 
 }
 #form-1{
@@ -59,22 +59,16 @@ border:none;
   'GRAD' 0,
   'opsz' 48
 }
-.navbar {
-  margin-right: -16px;
-  
-}
-.piéces{
+.nav {
   position: relative;
-  display: flex;
-
+  margin-right: -16px;
 }
-#menu-1{
+#menu-1 {
   position: absolute;
   display: none;
 }
 #menu-1:hover{
   color: aqua;
-  
 }
 
 ul {
@@ -127,6 +121,7 @@ li {
     align-items: center;
     background-color:orangered;
   }
+ 
   .box-1-2{
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +129,7 @@ li {
     justify-content: space-around;
     align-items: center;
   }
-
+ 
 .box-3 {
   display: flex;
   width: 200px; 
@@ -180,20 +175,7 @@ justify-content: center;
   color: blueviolet;
   
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
+
 .section-5{
   display: flex;
   justify-content:space-around;
@@ -204,19 +186,66 @@ justify-content: center;
   justify-content:space-between;
   padding-top: 90px; ;
   padding-left: 130px;
+  
+}
+.form-1{
+  width: 100px;
+}
+#name-1{
+  width: 300px;
+  height: 20px;
+  border-radius: 8px;
+  border-color:orangered;
+}
+#name-2{
+  width: 300px;
+  height: 20px;
+  border-radius: 8px;
+  border-color:orangered;
+}
+#name-3{
+  width: 300px;
+  height: 20px;
+  border-radius: 8px;
+  border-color:orangered;
+}
+#name-4{
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  border-color:orangered;
 }
 .area{
-  display: flex;
-  justify-content:center;
-  margin-top: -120px;
-  margin-right: -80px;
-  
-} 
+  padding-top: 20px;
+  padding-right: 60px;
+  border-radius: 5px;
+  border-color:orangered;
+}
+#area-1{
+  border-radius: 5px;
+  border-color:orangered;
+}
+
+#click{
+  font-size: medium;
+  font-weight:bold;
+  color:white;
+  width: 100px;
+  height: 40px;
+  background-color: darkorange;
+  border:none;
+  cursor: pointer;
+}
+#click:hover{
+  color:blueviolet
+}
 
 .boite{
+  background-color: aqua;
   color: blue;
   text-align:center;
   text-decoration: dashed;
+  border-radius: 5px;
 }
 .section-6{
   display: flex;
@@ -274,20 +303,13 @@ justify-content: center;
   margin-right: 20px;
 } 
 
- #Qte{
-  
-  width: 60px;
-  height: 30px;
-  cursor: pointer;
-  padding-bottom: 10px;
-}
-
 #panier{
   width: 120px;
   height: 30px;
   cursor: pointer;
-  padding-bottom: 5px;
-
+  background-color: #fff;
+  border-radius: 7px;
+  border-color:orangered;
 }
 #panier:hover{
   color: #fff;
@@ -298,6 +320,96 @@ justify-content: center;
   justify-content: center;
   margin-top: -20px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap');
+/* body {
+  background-image: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1549&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -200px;
+} */
+/* h1 {
+  font-family: Saira Condensed;
+  font-size: 70px;
+  text-align: center;
+  background: -webkit-linear-gradient(90deg, #b2dfdb, #000, #000);
+} */
+/* .container {
+  position: absolute;
+  top: 180px;
+  width: 90%;
+  margin-left: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(20px);
+  font-family: Saira Condensed;
+  font-size: 24px;
+} */
+
+.btn-cont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+  margin-top: 20px;
+  border-radius: 40px;
+  margin-right: 20px;
+  align-items: center;
+  transform: translate(70px, -50%);
+}
+.btn-cont button {
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  background: #dbdbdb;
+  color: #fff;
+  font-size: 27px;
+}
+
+table {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+td {
+  height: 100px;
+  text-align: center;
+
+  width: 200px;
+  border-top: 1px solid #d2d8ccbd;
+}
+/* img {
+  width: 200px;
+  height: 170px;
+} */
+.minus:hover {
+  background-color: #ef5350;
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: #66bb6a;
+  cursor: pointer;
+}
+.del button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: large;
+  color: #424242;
+}
+.delete:hover {
+  color: #b71c1c;
+}
+
 @media screen and (max-width:576px){
   .box-1-2{
     display: flex;
