@@ -1,46 +1,63 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap');
+
 body{
 background-color:white;
 }
 h1 {
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration-style:dashed;
-    color: blueviolet;
-    font-size: 25px;
+    color:#18534F;
+    font-size: 35px;
+    font-weight: 10px;
 }
 
 .section-1{
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
 }
 
 .section-2{
   display: flex;
   flex-direction: column;
   width: 150px;
+  border-radius:10px;;
   background-color:white;
-  border-color:orangered;
-  gap: 3px;
+  border-color:#18534F;
+  gap: 7px;
 
 }
+#section-2-1:hover{
+  color: #ecf8f6;
+  background-color:#18534F;
+  border-color:#ECf8f6;
+  cursor: pointer;
+}
+.section2-1-1{
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+cursor: pointer;
+}
+#panier-1:hover{
+color:#ecf8f6;
+text-decoration:none;
+}
+
+
+
 #form-1{
 width: 150px;
 height: 20px;
-color:white;
-background-color:orangered;
+color:#ecf8f6;
+background-color:#226d68;
 cursor:pointer;
 border:none;
 }
 .Research{
   margin-top: 20px;
-}
-
-#section-2-1:hover{
-  border-radius: 10px;
-  background-color:orangered;
-  border-color:white;
 }
 
 .material-symbols-outlined {
@@ -59,23 +76,35 @@ border:none;
   'GRAD' 0,
   'opsz' 48
 }
-.nav {
+.navbar {
+  color: #18534F;
   position: relative;
-  margin-right: -16px;
+  margin-right: -15px;
 }
+
 #menu-1 {
-  position: absolute;
+  position: relative;
   display: none;
 }
-#menu-1:hover{
-  color: aqua;
+
+#menu:hover #menu-1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  }
+
+#menu-1 a{
+  color: #18534F;
+  margin-left: -40px;
+  background-color:#ecf8f6;
 }
+
 
 ul {
     list-style-type: none;
     margin-bottom: 0px;
     overflow: hidden;
-    background-color:orangered;
+    background-color:#226d68;
     text-decoration:none;
 }
   
@@ -95,7 +124,7 @@ li {
   }
   .box-1 {
     display: flex;
-    background-color: grey;
+    background-color:#ecf8f6;
     height: 300px;
     width: 1350px; 
     margin-top:0;
@@ -105,24 +134,14 @@ li {
     display: flex;
     width: 200px; 
     height: 300px;
-    background-color:lime;
+    background-color:#feeaa1;
  }
    #h-2{
   padding-top: 50px;
-  color:#fff;
+  color:#d6955b;
   font-size: 20px;
    }
-  .box-2 {
-    display: flex;
-    width: 200px; 
-    height: 100px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color:orangered;
-  }
- 
-  .box-1-2{
+   .box-1-2{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -130,34 +149,71 @@ li {
     align-items: center;
   }
  
-.box-3 {
-  display: flex;
-  width: 200px; 
-  height: 100px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color:orangered;
+  .box-2 {
+    position: relative;
+    position:absolute;
+    display: flex;
+    width: 200px; 
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color:#ecf8f6;
+    background-color:#18534F;
+    cursor: pointer;
   }
-  
-.box-4 {
+   #choix-1{
+    position: absolute;
+    margin-top: 60px;
+    background-color:#feeaa1;
+    border-radius: 5px;
+  }
+ 
+ 
+.box-3 {
+  position: relative;
   display: flex;
   width: 200px; 
   height: 100px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color:orangered;
-
+  color:#ecf8f6;
+  background-color:#18534F;
+  }
+ .box-3 #choix-2{
+  position: absolute;
+  margin-top: 60px;
+  background-color:#feeaa1;
+  border-radius: 5px;
 }
+
+.box-4 {
+  position: relative;
+  display: flex;
+  width: 200px; 
+  height: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color:#ecf8f6;
+  background-color:#18534F;
+}
+.box-4 #choix-3{
+  position: absolute;
+  margin-top: 60px;
+  background-color:#feeaa1;
+  border-radius: 5px;
+}
+
 .main-1{
   display: flex;
   justify-content: center;
-  color: blueviolet;
- font-size: 20px;
+  color:#18534F;
+  font-size: 30px;
 }
 #main-1-p:hover{
-  color: orangered;
+  color:#226d68;
   
 }
 .main-2{
@@ -171,9 +227,8 @@ justify-content: center;
 .section-4{
   display: flex;
   justify-content: center;
-  font-size: 20px;
-  color: blueviolet;
-  
+  font-size: 30px;
+  color:#18534F;
 }
 
 .section-5{
@@ -181,49 +236,52 @@ justify-content: center;
   justify-content:space-around;
 
 }
+.boite{
+  background-color:#d6955b;
+  color:#feeaa1;
+  text-align:center;
+  border-radius: 5px;
+}
+/* contact */
 .formulaire {
   display:flex;
   justify-content:space-between;
-  padding-top: 90px; ;
+  padding-top: 40px; ;
   padding-left: 130px;
   
 }
 .form-1{
-  width: 100px;
+  width: 200px;
+  height: 400px;
 }
 #name-1{
   width: 300px;
   height: 20px;
-  border-radius: 8px;
-  border-color:orangered;
+  border-radius: 12px;
 }
 #name-2{
   width: 300px;
   height: 20px;
-  border-radius: 8px;
-  border-color:orangered;
+  border-radius: 12px;
 }
 #name-3{
   width: 300px;
   height: 20px;
-  border-radius: 8px;
-  border-color:orangered;
+  border-radius: 12px;
 }
 #name-4{
   width: 300px;
   height: 20px;
-  border-radius: 5px;
-  border-color:orangered;
+  border-radius: 12px;
 }
 .area{
   padding-top: 20px;
   padding-right: 60px;
   border-radius: 5px;
-  border-color:orangered;
+
 }
 #area-1{
-  border-radius: 5px;
-  border-color:orangered;
+  border-radius: 12px;
 }
 
 #click{
@@ -232,43 +290,48 @@ justify-content: center;
   color:white;
   width: 100px;
   height: 40px;
-  background-color: darkorange;
-  border:none;
+  color:#cce7db;
+  background-color:#18534F;
+  border-radius: 12px;
   cursor: pointer;
 }
 #click:hover{
-  color:blueviolet
+  color:#d6955b;
 }
 
-.boite{
-  background-color: aqua;
-  color: blue;
-  text-align:center;
-  text-decoration: dashed;
-  border-radius: 5px;
-}
+/* Qui somme nous? */
 .section-6{
   display: flex;
   justify-content: space-around;
   gap: 7px;
 }
 .container-1{
-  background-color:violet;
+  background-color:#226d68;
   padding: 20px 30px;
   border-radius: 10px;
-  color: #fff;
+  color: #feeaa1;
   font-size: 20px;
   margin-top: 20px;
   
 }
+
 .container-2{
-  background-color:violet;
+  background-color:#226d68;
   padding: 20px 30px;
   border-radius: 10px;
-  color: #fff;
+  color: #feeaa1;
   font-size: 17px;
   margin-top: 20px;
 }
+h2{
+display: flex;
+justify-content: center;
+color:#d6955b;
+font-size: 35px;
+}
+
+
+
 #product1 {
   text-align: center;
 
@@ -307,9 +370,9 @@ justify-content: center;
   width: 120px;
   height: 30px;
   cursor: pointer;
-  background-color: #fff;
+  color: #cce7db;
+  background-color:#226d68;
   border-radius: 7px;
-  border-color:orangered;
 }
 #panier:hover{
   color: #fff;
@@ -320,33 +383,6 @@ justify-content: center;
   justify-content: center;
   margin-top: -20px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap');
-/* body {
-  background-image: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1549&q=80');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 0px -200px;
-} */
-/* h1 {
-  font-family: Saira Condensed;
-  font-size: 70px;
-  text-align: center;
-  background: -webkit-linear-gradient(90deg, #b2dfdb, #000, #000);
-} */
-/* .container {
-  position: absolute;
-  top: 180px;
-  width: 90%;
-  margin-left: 60px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.01);
-  backdrop-filter: blur(20px);
-  font-family: Saira Condensed;
-  font-size: 24px;
-} */
 
 .btn-cont {
   display: flex;
@@ -386,10 +422,6 @@ td {
   width: 200px;
   border-top: 1px solid #d2d8ccbd;
 }
-/* img {
-  width: 200px;
-  height: 170px;
-} */
 .minus:hover {
   background-color: #ef5350;
   cursor: pointer;
@@ -411,6 +443,26 @@ td {
 }
 
 @media screen and (max-width:576px){
+  #choix-1 {
+    position: absolute;
+    margin-top: 40px;
+    background-color: #feeaa1;
+    border-radius: 5px;
+}
+.box-2 {
+  margin-top: 30px;
+  position: relative;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ecf8f6;
+  background-color: #18534F;
+  cursor: pointer;
+}
   .box-1-2{
     display: flex;
     flex-direction: column;
@@ -448,4 +500,9 @@ td {
   flex-direction: column;
 }
 }
-
+.formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-left: 40px;
+}
