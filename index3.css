@@ -242,6 +242,13 @@ justify-content: center;
   text-align:center;
   border-radius: 5px;
 }
+
+.boite-2{
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
 /* contact */
 .formulaire {
   display:flex;
@@ -326,7 +333,7 @@ justify-content: center;
 h2{
 display: flex;
 justify-content: center;
-color:#d6955b;
+color:#18534F;
 font-size: 35px;
 }
 
