@@ -1,4 +1,4 @@
-// alert("Bienvenu à notre nouveau site web!!");
+// alert("Ce site est en cours de construction!");
 
 var btnplus=document.querySelectorAll(".plus")
 

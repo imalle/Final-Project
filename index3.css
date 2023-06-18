@@ -50,7 +50,7 @@ text-decoration:none;
 
 #form-1{
 width: 150px;
-height: 20px;
+height:20px;
 color:#ecf8f6;
 background-color:#226d68;
 cursor:pointer;
@@ -108,7 +108,7 @@ ul {
     text-decoration:none;
 }
   
-li {
+  li {
     float: left;
   }
   li a {
@@ -237,6 +237,7 @@ justify-content: center;
 
 }
 .boite{
+  margin-top: 20px;
   background-color:#d6955b;
   color:#feeaa1;
   text-align:center;
@@ -259,7 +260,6 @@ justify-content: center;
 }
 .form-1{
   width: 200px;
-  height: 400px;
 }
 #name-1{
   width: 300px;
@@ -310,7 +310,7 @@ justify-content: center;
 .section-6{
   display: flex;
   justify-content: space-around;
-  gap: 7px;
+  gap: 3px;
 }
 .container-1{
   background-color:#226d68;
@@ -327,7 +327,7 @@ justify-content: center;
   padding: 20px 30px;
   border-radius: 10px;
   color: #feeaa1;
-  font-size: 17px;
+  font-size: 23px;
   margin-top: 20px;
 }
 h2{
@@ -379,11 +379,11 @@ font-size: 35px;
   cursor: pointer;
   color: #cce7db;
   background-color:#226d68;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 #panier:hover{
   color: #fff;
-  background-color: orangered;
+  background-color:#d6955b;
 }
  #counter-label {
   display: flex;
@@ -471,6 +471,7 @@ td {
   cursor: pointer;
 }
   .box-1-2{
+    padding-left: 60px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -506,10 +507,55 @@ td {
   align-items: center;
   flex-direction: column;
 }
+#area-1{
+  width:300px;
 }
 .formulaire {
   display: flex;
   flex-wrap: wrap;
   padding-top: 100px;
   padding-left: 40px;
+}
+.section-6 {
+  display: flex;
+  justify-content: space-around;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.boite-2 {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #18534F;
+  font-size: 30px;
+}
+.form-1 {
+  /* margin-top: -50px; */
+  width: 200px;
+}
+.area {
+  padding-top: 20px;
+  padding-right: 60px;
+  border-radius: 5px;
+}
+
+.box-1 {
+  display: flex;
+  background-color: #ecf8f6;
+  height: 300px;
+  /* width: 1350px; */
+  margin-top: 0;
+  justify-content: space-around;
+}
+
+
+
+
+
+
 }
